@@ -3,10 +3,11 @@
 Safe by design: if a college's page can't be read (or looks broken) its old JSON is kept, the other colleges still update,
 and the problem is listed as a warning in the run log and in data/_status.json."""
 import json, sys, os, re, hashlib, ssl, time, urllib.request, urllib.error
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
 from colleges import COLLEGES
 
-KEEP = 60                                   # newest notices stored per college
+KEEP = 20                                   # <<< how many newest notices are kept per college (change this number if you want more or fewer)
 MIN_ROWS = 5                                # fewer than this = the page layout probably changed
 LEGACY_ID_BY_URL = {"sggscc"}               # ids made from the link only (keeps old ids stable); others use link + title
 UA = "CampusOS-notices/1.0 (student notices reader; +https://github.com/campusos-site/campusos-notices)"
@@ -19,13 +20,15 @@ TAGS = [("Exams", r"exam|practical|viva|date ?sheet|assessment|re-?appear|admit 
 def tag(title):
     return [n for n, rx in TAGS if re.search(rx, title, re.I)] or ["General"]
 
+FETCH_TIMEOUT = int(os.environ.get("FETCH_TIMEOUT", "20"))   # seconds to wait for a college website before giving up
+
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html,*/*"})
     last = None
-    for attempt in range(3):
+    for attempt in range(2):
         for ctx in (None, ssl._create_unverified_context()):      # some college sites have an incomplete certificate chain
             try:
-                with urllib.request.urlopen(req, timeout=40, context=ctx) as r:
+                with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT, context=ctx) as r:
                     raw = r.read()
                     return raw.decode(r.headers.get_content_charset() or "utf-8", "ignore")
             except urllib.error.URLError as e:
@@ -34,7 +37,7 @@ def fetch(url):
                 break
             except Exception as e:
                 last = e; break
-        time.sleep(3 * (attempt + 1))
+        time.sleep(3)
     raise RuntimeError(f"could not fetch {url}: {last}")
 
 def build(cid, page, adapter, prev):
@@ -70,12 +73,20 @@ if __name__ == "__main__":
     else:
         jobs = {cid: None for cid in COLLEGES}
     failing, ok = {}, []
-    for n, (cid, page) in enumerate(jobs.items()):
+    pages, errors = dict(jobs), {}
+    todo = [cid for cid, pg in jobs.items() if pg is None]
+    if todo:                                                           # different websites, so fetching together is polite
+        with ThreadPoolExecutor(max_workers=6) as ex:
+            futs = {cid: ex.submit(fetch, COLLEGES[cid].URL) for cid in todo}
+            for cid, f in futs.items():
+                try: pages[cid] = f.result()
+                except BaseException as e: errors[cid] = e
+    for cid in jobs:
         path = f"data/{cid}.json"
         try:
-            if n and page is None: time.sleep(2)                   # be gentle with the college websites
+            if cid in errors: raise errors[cid]
             prev = load_json(path, {"notices": []})
-            data = build(cid, page if page is not None else fetch(COLLEGES[cid].URL), COLLEGES[cid], prev)
+            data = build(cid, pages[cid], COLLEGES[cid], prev)
             new_ids = {x["id"] for x in data["notices"]} - {x["id"] for x in prev["notices"]}
             json.dump(data, open(path, "w", encoding="utf8"), indent=1, ensure_ascii=False)
             ok.append(cid); print(f"{cid}: {len(data['notices'])} stored, {len(new_ids)} new")
