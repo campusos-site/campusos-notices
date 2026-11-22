@@ -1,0 +1,18 @@
+{
+ "failing": {
+  "dduc": "only 0 notices read - the college page layout probably changed, keeping old data",
+  "venky": "only 0 notices read - the college page layout probably changed, keeping old data",
+  "ramjas": "could not fetch https://ramjas.du.ac.in/college/web/index.php?r=students-zone/students-notice: <urlopen error timed out>",
+  "dcac": "could not fetch https://dcac.du.ac.in/home/notification/news: <urlopen error timed out>"
+ },
+ "ok": [
+  "drc",
+  "gargi",
+  "hansraj",
+  "kmc",
+  "mirandahouse",
+  "sggscc",
+  "sgtbk",
+  "srcc"
+ ]
+}
