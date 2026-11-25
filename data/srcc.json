@@ -1,8 +1,28 @@
 {
  "college": "srcc",
  "source": "https://www.srcc.edu/announcements",
- "updated": "2026-11-25T07:10:04+00:00",
+ "updated": "2026-11-25T09:00:32+00:00",
  "notices": [
+  {
+   "title": "Notice-Practical Examination Schedule for Financial Accounting BCH Sem-I",
+   "description": "",
+   "posted": "2026-11-25T00:00:00",
+   "url": "https://online.srcc.edu/smartprof/file_uploads/notices/Attachment/NoticePracticalExaminationScheduleforFinancialAccountingBCHSemI-15ab2cd3868b5670232078946f8168ce.pdf",
+   "id": "b2104dd83470",
+   "tags": [
+    "Exams"
+   ]
+  },
+  {
+   "title": "BAHE SEM I Practical Examination Schedule for Accounting for Everyone 2026",
+   "description": "",
+   "posted": "2026-11-25T00:00:00",
+   "url": "https://online.srcc.edu/smartprof/file_uploads/notices/Attachment/BAHESEMIPracticalExaminationScheduleforAccountingforEveryone2026-30596703e63d9856074035852afd0297.pdf",
+   "id": "0990f5fafa5f",
+   "tags": [
+    "Exams"
+   ]
+  },
   {
    "title": "Practical Examination Schedule for B.Com H, IIIrd Year Semester V Management Accounting, Paper No. 2412083503 on 25th & 26th November, 2026.",
    "description": "",
@@ -181,26 +201,6 @@
    "id": "01cf47c79ec6",
    "tags": [
     "Exams"
-   ]
-  },
-  {
-   "title": "Notification Last date ug_pg extended upto 19.11.2026",
-   "description": "",
-   "posted": "2026-11-18T00:00:00",
-   "url": "https://online.srcc.edu/smartprof/file_uploads/notices/Attachment/NotificationLastdateugpgextendedupto19112026-b2d175956f20f16f4e102804668b51e4.pdf",
-   "id": "4af67d6e79a7",
-   "tags": [
-    "General"
-   ]
-  },
-  {
-   "title": "IQAC SRCCs Student Newsletter Volume III Issue 15",
-   "description": "",
-   "posted": "2026-11-17T00:00:00",
-   "url": "https://online.srcc.edu/smartprof/file_uploads/notices/Attachment/IQACSRCCsStudentNewsletterVolumeIIIIssue15-4d38159edf50366dd3633a16bd6a7c1d.pdf",
-   "id": "e1e137cf4f78",
-   "tags": [
-    "General"
    ]
   }
  ]
