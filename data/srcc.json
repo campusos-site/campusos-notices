@@ -1,8 +1,18 @@
 {
  "college": "srcc",
  "source": "https://www.srcc.edu/announcements",
- "updated": "2026-11-25T09:00:32+00:00",
+ "updated": "2026-11-25T10:55:30+00:00",
  "notices": [
+  {
+   "title": "Notice-Practical Examination Schedule for Numerical Methods BCH Sem-V",
+   "description": "",
+   "posted": "2026-11-25T00:00:00",
+   "url": "https://online.srcc.edu/smartprof/file_uploads/notices/Attachment/NoticePracticalExaminationScheduleforNumericalMethodsBCHSemV-90ba3ee0e954235fc7d9a01a5e047c14.pdf",
+   "id": "7cc80c03c4a1",
+   "tags": [
+    "Exams"
+   ]
+  },
   {
    "title": "Notice-Practical Examination Schedule for Financial Accounting BCH Sem-I",
    "description": "",
@@ -189,16 +199,6 @@
    "posted": "2026-11-19T00:00:00",
    "url": "https://online.srcc.edu/smartprof/file_uploads/notices/Attachment/PracticalExaminationScheduleforSemesterVIIEssentialsofEntrepreneurship-bee481ae034c587598b3834ae269e0ab.pdf",
    "id": "b4a2dcce5f99",
-   "tags": [
-    "Exams"
-   ]
-  },
-  {
-   "title": "BCH SEM 3 Practical Examination Schedule for BUSINESS MATHEMATICS",
-   "description": "",
-   "posted": "2026-11-18T00:00:00",
-   "url": "https://online.srcc.edu/smartprof/file_uploads/notices/Attachment/BCHSEM3PracticalExaminationScheduleforBUSINESSMATHEMATICS-d3aa74250dacd8c7e99338a91698c381.pdf",
-   "id": "01cf47c79ec6",
    "tags": [
     "Exams"
    ]
