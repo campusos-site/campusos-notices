@@ -1,8 +1,28 @@
 {
  "college": "dduc",
  "source": "https://ddu-college.du.ac.in/information/all-notices",
- "updated": "2026-11-26T05:05:56+00:00",
+ "updated": "2026-11-26T07:16:04+00:00",
  "notices": [
+  {
+   "title": "Public Advisory regarding verification pf authenticity and recognition status of Education Institutions",
+   "description": "",
+   "posted": "2026-11-26T00:00:00",
+   "url": "https://ddu-college.du.ac.in/website-data/notices/notice_20261126_060300.pdf",
+   "id": "098911761eda",
+   "tags": [
+    "General"
+   ]
+  },
+  {
+   "title": "Distribution of Admit Cards to students having attended more than 2/3 of the classes held",
+   "description": "",
+   "posted": "2026-11-25T00:00:00",
+   "url": "https://ddu-college.du.ac.in/website-data/notices/notice_20261126_054923.pdf",
+   "id": "ec054dfcfaf0",
+   "tags": [
+    "Exams"
+   ]
+  },
   {
    "title": "Display of Attendance for the odd semesters of Academic Session 2026-27",
    "description": "",
@@ -184,26 +204,6 @@
    "id": "947a8c3f99c7",
    "tags": [
     "Exams"
-   ]
-  },
-  {
-   "title": "Notice dated 15.10.2026 regarding schedule for physical verification of Documents of students admitted in first year of academic session 2026-27",
-   "description": "",
-   "posted": "2026-10-15T00:00:00",
-   "url": "https://ddu-college.du.ac.in/website-data/notices/notice_20261030_105354.pdf",
-   "id": "de90fdcfe54c",
-   "tags": [
-    "General"
-   ]
-  },
-  {
-   "title": "Notice dated 14.10.2026 regarding allotment of Enrolment Numbers to first year students",
-   "description": "",
-   "posted": "2026-10-14T00:00:00",
-   "url": "https://ddu-college.du.ac.in/website-data/notices/notice_20261030_105504.pdf",
-   "id": "4aec3e1dc88f",
-   "tags": [
-    "Admissions"
    ]
   }
  ]
