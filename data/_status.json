@@ -1,18 +1,18 @@
 {
  "failing": {
-  "drc": "only 0 notices read - the college page layout probably changed, keeping old data | then: only 0 notices read - the college page layout probably changed, keeping old data",
-  "kmc": "could not fetch https://kmc.du.ac.in/news/notices: <urlopen error timed out> | then: browser could not open the page: Page.goto: Timeout 45000ms exceeded.",
-  "venky": "could not fetch https://www.svc.ac.in/notices/students: <urlopen error timed out> | then: browser could not open the page: Page.goto: Timeout 45000ms exceeded.",
   "ramjas": "could not fetch https://ramjas.du.ac.in/college/web/index.php?r=students-zone/students-notice: <urlopen error timed out> | then: browser could not open the page: Page.goto: Timeout 45000ms exceeded.",
   "dcac": "could not fetch https://dcac.du.ac.in/home/notification/notice: <urlopen error timed out> | then: browser could not open the page: Page.goto: Timeout 45000ms exceeded."
  },
  "ok": [
   "dduc",
+  "drc",
   "gargi",
   "hansraj",
+  "kmc",
   "mirandahouse",
   "sggscc",
   "sgtbk",
-  "srcc"
+  "srcc",
+  "venky"
  ]
 }
