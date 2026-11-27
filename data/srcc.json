@@ -1,8 +1,18 @@
 {
  "college": "srcc",
  "source": "https://www.srcc.edu/announcements",
- "updated": "2026-11-27T05:01:33+00:00",
+ "updated": "2026-11-27T07:09:15+00:00",
  "notices": [
+  {
+   "title": "Public Advisory - verification of the authenticity and recognition status of educational institutions",
+   "description": "",
+   "posted": "2026-11-27T00:00:00",
+   "url": "https://www.srcc.edu/sites/default/files/Publice Advisory.pdf",
+   "id": "bda51a318bab",
+   "tags": [
+    "General"
+   ]
+  },
   {
    "title": "Notice-Practical Examination Schedule for Numerical Methods BCH Sem-V",
    "description": "",
@@ -189,16 +199,6 @@
    "posted": "2026-11-19T00:00:00",
    "url": "https://online.srcc.edu/smartprof/file_uploads/notices/Attachment/BAHESEMVPracticalExaminationScheduleforNUMERICALMETHODS-42f0828e034e4fcde9dd3bb9adfe36c9.pdf",
    "id": "658625895451",
-   "tags": [
-    "Exams"
-   ]
-  },
-  {
-   "title": "“Practical Examination Schedule for Semester VII – Essentials of Entrepreneurship”",
-   "description": "",
-   "posted": "2026-11-19T00:00:00",
-   "url": "https://online.srcc.edu/smartprof/file_uploads/notices/Attachment/PracticalExaminationScheduleforSemesterVIIEssentialsofEntrepreneurship-bee481ae034c587598b3834ae269e0ab.pdf",
-   "id": "b4a2dcce5f99",
    "tags": [
     "Exams"
    ]
