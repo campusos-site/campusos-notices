@@ -1,8 +1,19 @@
 {
  "college": "venky",
  "source": "https://www.svc.ac.in/notices/students",
- "updated": "2026-11-27T01:07:35+00:00",
+ "updated": "2026-11-27T02:55:58+00:00",
  "notices": [
+  {
+   "title": "Public Advisory regarding verification of the authenticity and recognition status of educational institutions before seeking admission or engaging in any dealing",
+   "description": "",
+   "posted": "2026-11-27T08:25",
+   "url": "https://www.svc.ac.in/kmcouter/collnews/download/1120063117957466323.pdf/College%20News/pdf/All/All",
+   "id": "6f7aba47b8e2",
+   "dated": false,
+   "tags": [
+    "Admissions"
+   ]
+  },
   {
    "title": "Notice regarding practical examination for BCom(P) Semester I- Financial Accounting, Nov-Dec 2026",
    "description": "",
@@ -152,17 +163,6 @@
    "posted": "2026-11-22T22:40",
    "url": "https://www.svc.ac.in/kmcouter/collnews/download/54564322179491046510.pdf/College%20News/pdf/All/All",
    "id": "6efeaec62025",
-   "dated": false,
-   "tags": [
-    "Exams"
-   ]
-  },
-  {
-   "title": "Notice regarding practical examination for BCom(H) Semester III - Business Mathematics, Nov-Dec 2026",
-   "description": "",
-   "posted": "2026-11-22T22:40",
-   "url": "https://www.svc.ac.in/kmcouter/collnews/download/4727843917949103545.pdf/College%20News/pdf/All/All",
-   "id": "e07bd7c7b17e",
    "dated": false,
    "tags": [
     "Exams"
