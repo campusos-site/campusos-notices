@@ -1,8 +1,18 @@
 {
  "college": "dduc",
  "source": "https://ddu-college.du.ac.in/information/all-notices",
- "updated": "2026-11-27T07:10:55+00:00",
+ "updated": "2026-11-27T09:01:11+00:00",
  "notices": [
+  {
+   "title": "Issuance of Admit Card to Semester-VII students",
+   "description": "",
+   "posted": "2026-11-26T00:00:00",
+   "url": "https://ddu-college.du.ac.in/website-data/notices/notice_20261127_071314.pdf",
+   "id": "faf6c2368ec2",
+   "tags": [
+    "Exams"
+   ]
+  },
   {
    "title": "Public Advisory regarding verification pf authenticity and recognition status of Education Institutions",
    "description": "",
@@ -21,6 +31,16 @@
    "id": "ec054dfcfaf0",
    "tags": [
     "Exams"
+   ]
+  },
+  {
+   "title": "Guidelines for students admitted under foreign students category",
+   "description": "",
+   "posted": "2026-11-23T00:00:00",
+   "url": "https://ddu-college.du.ac.in/website-data/notices/notice_20261127_082236.pdf",
+   "id": "fe9273de7f4b",
+   "tags": [
+    "General"
    ]
   },
   {
@@ -184,26 +204,6 @@
    "id": "93633ebb8570",
    "tags": [
     "General"
-   ]
-  },
-  {
-   "title": "Notice dated 21.10.2026 regarding seniority list of teachers according to length of service",
-   "description": "",
-   "posted": "2026-10-21T00:00:00",
-   "url": "https://ddu-college.du.ac.in/website-data/notices/notice_20261102_064256.pdf",
-   "id": "6d0f025e119a",
-   "tags": [
-    "General"
-   ]
-  },
-  {
-   "title": "Notice dated 16.10.2026 regarding extension of last date for filling Online Examination Form",
-   "description": "",
-   "posted": "2026-10-16T00:00:00",
-   "url": "https://ddu-college.du.ac.in/website-data/notices/notice_20261102_110332.pdf",
-   "id": "947a8c3f99c7",
-   "tags": [
-    "Exams"
    ]
   }
  ]
