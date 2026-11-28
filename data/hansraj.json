@@ -1,8 +1,18 @@
 {
  "college": "hansraj",
  "source": "https://www.hansrajcollege.ac.in/announcements/general",
- "updated": "2026-11-28T02:48:09+00:00",
+ "updated": "2026-11-28T04:56:29+00:00",
  "notices": [
+  {
+   "title": "Admit card Notice",
+   "description": "",
+   "posted": "2026-11-28T00:00:00",
+   "url": "https://www.hansrajcollege.ac.in/hCPanel/uploads/focus/Admit Card Notice_20261128040320.pdf",
+   "id": "d09cac2dc984",
+   "tags": [
+    "Exams"
+   ]
+  },
   {
    "title": "List of Shortlisted Candidates - 19.11.2026",
    "description": "",
@@ -192,16 +202,6 @@
    "id": "e574bf4f5cee",
    "tags": [
     "Admissions"
-   ]
-  },
-  {
-   "title": "Screening of teaching posts physical education",
-   "description": "",
-   "posted": "2026-11-02T00:00:00",
-   "url": "https://www.hansrajcollege.ac.in/hCPanel/uploads/focus/Scanned%20copy_261102_132907.pdf",
-   "id": "a558ac9aa14d",
-   "tags": [
-    "General"
    ]
   }
  ]
